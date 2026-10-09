@@ -112,4 +112,6 @@ python3 -m unittest discover -s tests -v
 
 厂商可以从源码层面采用单调时钟计算等待时间，或可靠校准 TSC，避免把动态 `cpu MHz` 当作稳定计时时钟频率。我们未取得厂商源码，不能提交经过编译验证的厂商源码补丁。
 
+社区跟进：[向 docker-univpn 提交的客户端缺陷报告 #16](https://github.com/zx900930/docker-univpn/issues/16)，以及[文件传输掉线讨论中的诊断回复](https://github.com/zx900930/docker-univpn/issues/14#issuecomment-6072795653)。这些是社区反馈，不是厂商确认；当前未找到可确认属于厂商的 UniVPN GitHub 源码或缺陷仓库。
+
 本项目代码和原创文档采用 MIT 许可；该许可不授予对 UniVPN 专有软件的再分发权利。
